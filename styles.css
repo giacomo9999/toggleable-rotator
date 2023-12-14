@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Playfair Display", serif;
+  background: #4d9900;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-l {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+.rotator {
+  background: #80ff00;
+  height: 300px;
+  width: 300px;
+}
+
+.right {
+  animation: rotate 7s linear infinite;
+}
+
+.left {
+    animation: rotate-l 7s linear infinite; 
+}
