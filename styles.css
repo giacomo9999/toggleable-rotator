@@ -25,10 +25,14 @@ body {
 }
 
 @keyframes rotate-l {
-    to {
-      transform: rotate(-360deg);
-    }
+  to {
+    transform: rotate(-360deg);
   }
+}
+
+.spacer {
+  height: 100px;
+}
 
 .rotator {
   background: #80ff00;
@@ -41,5 +45,5 @@ body {
 }
 
 .left {
-    animation: rotate-l 7s linear infinite; 
+  animation: rotate-l 7s linear infinite;
 }
